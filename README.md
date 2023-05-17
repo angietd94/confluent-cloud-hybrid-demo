@@ -46,6 +46,7 @@ The URL in the down-right side!
 
 <br>
 BOOTSTRAP_SERVERS="*****:****"<br>
+![IMAGE_DESCRIPTION](img/bootstrap.png)<br>
 
 <br>
 <br>
@@ -67,6 +68,7 @@ And the outcome would look like this!
 
 
 ############
+##  Second part: Launching the script! <br>
 
 
 then: <br>
