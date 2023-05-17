@@ -63,9 +63,6 @@ export CLICKHOUSE_HOSTNAME="****"<br>
 ![IMAGE_DESCRIPTION](img/hostname.png)
 
 
-And the outcome would look like this!
-![IMAGE_DESCRIPTION](img/outcome.png)
-
 
 ############
 ##  Second part: Launching the script! <br>
@@ -73,23 +70,27 @@ And the outcome would look like this!
 
 then: <br>
 ```
-chmod +x executable.sh <br>
-chmod +x config_files.sh<br>
+chmod +x executable.sh 
+chmod +x config_files.sh
 ```
 
 Run:
 ```
-./executable.sh <br>
+./executable.sh 
 ```
 
 It will ask for username and password for the account.
 <br>
 
-Check: <br>
-http://localhost:8083/connector-plugins <br>
+Check: 
+<br>
+http://localhost:8083/connector-plugins 
+<br>
 http://localhost:8083/connectors/ 
 <br>
 http://localhost:9021/clusters/
+
+<br>
 
 when all is up, modify first the config_files.sh file with your values for the connector and then run it. <br>
 ```
@@ -97,4 +98,11 @@ when all is up, modify first the config_files.sh file with your values for the c
 ```
 
 
+And the outcome would look like this!
+![IMAGE_DESCRIPTION](img/outcome.png)
+
+
+Also some videos here that go through all the process:
+https://drive.google.com/file/d/1xUpOMX-cFQDH5BVCfKHOc4IMn8uYmNxV/view
+https://drive.google.com/file/d/1Zr-Nkpmpd2leGuErGQRAPJWxmiheWZTB/view?usp=sharing
 
