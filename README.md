@@ -1,6 +1,14 @@
 # confluent-cloud-hybrid-demo
 
 
+First clone the git repo:
+
+'''
+git clone https://github.com/angietd94/confluent-cloud-hybrid-demo.git
+'''
+and enter in the folder:
+
+
 ## Modify first the config.sh file with your values! <br>
 
 
