@@ -21,6 +21,7 @@ ENVID="env-****"<br>
 
 
 export CLUSTERID="lkc-***"<br>
+insidde the cluster information . Cluster > Cluster Settings.
 
 #Either us, eu<br>
 export GEO="eu"<br>
