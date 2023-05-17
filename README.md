@@ -50,6 +50,8 @@ export REGION="eu-central-1"<br>
 <br>
 CLUSTERAPIKEY="*****"<br>
 CLUSTERAPISECRET="******"<br>
+![ENVID](img/clusterapikeys.png)<br>
+
 <br>
 #for example, aws or gcp<br>
 CLOUDPROVIDER="aws"<br>
