@@ -110,7 +110,7 @@ What I see:
 
 if YES!
 
-CREATE A TOPIC for example with schema: <br>
+CREATE A TOPIC , I called it simple_example_avro for example with a simple schema: <br>
 ```
 {
   "doc": "Sample schema to help you get started.",
