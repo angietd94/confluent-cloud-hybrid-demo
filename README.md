@@ -1,10 +1,10 @@
-## confluent-cloud-hybrid-demo
+# confluent-cloud-hybrid-demo
 
 
-# Modify first the config.sh file with your values! <br>
+## Modify first the config.sh file with your values! <br>
 
 
-Guide: to find values in Confluent Cloud:
+###Guide: to find values in Confluent Cloud:
 
 
 CLOUD_KEY="*****"<br>
