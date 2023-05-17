@@ -43,5 +43,4 @@ export SCHEMA_REGISTRY_BASIC_AUTH_USER_INFO=$SR_API_KEY:$SR_API_SECRET
 export TOPIC="*****"
 export DATABASE_NAME="default"
 export DATABASE_PASSWORD="*****"
-export DATABASE_HOSTNAME="******"
 export CLICKHOUSE_HOSTNAME="****"
