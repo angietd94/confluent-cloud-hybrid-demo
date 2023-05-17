@@ -4,6 +4,7 @@
 ###DOCUMENT BY ANGELICA TACCA DUGHETTI
 ##### CONFLUENT
 
+echo "Letting files be executable"
 chmod +x config_files.sh 
 chmod +x config.sh
 chmod +x ccloud-generate-cp-configs.sh
@@ -22,13 +23,10 @@ chmod +x ccloud-generate-cp-configs.sh
 #echo "Deleting old dockers orphans.."
 docker-compose down --remove-orphans
 docker stop $(docker ps -a -q)
-#sleep 3s
 docker rm $(docker ps -a -q)
-#sleep 3s
 
-#sleep 3 s
 
-#install CLI
+echo "install CLI"
 
 export PATH=$(pwd)/bin:$PATH
 curl -sL --http1.1 https://cnfl.io/cli | sh -s -- latest
