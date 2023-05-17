@@ -35,11 +35,12 @@ curl -sL --http1.1 https://cnfl.io/cli | sh -s -- latest
 
 echo "Importing variables"
 ## IMPORT VARIABLES:
-source config.sh
 chmod +x config.sh
 chmod +x config_files.sh 
 chmod +x ccloud-generate-cp-configs.sh
 ./config.sh
+source config.sh
+
 ######If Docker is not installed install it
 #Make sure Docker is open
 #open -a Docker
