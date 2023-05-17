@@ -30,7 +30,7 @@ export REGION="eu-central-1"<br>
 CLUSTERAPIKEY="*****"<br>
 CLUSTERAPISECRET="******"<br>
 ![IMAGE_DESCRIPTION](img/clusterapikeys.png)<br>
-
+<br>
 <br>
 #for example, aws or gcp<br>
 CLOUDPROVIDER="aws"<br>
@@ -42,6 +42,7 @@ The URL in the down-right side!
 <br>
 ![IMAGE_DESCRIPTION](img/sr.png)<br>
 <br>
+
 
 <br>
 BOOTSTRAP_SERVERS="*****:****"<br>
