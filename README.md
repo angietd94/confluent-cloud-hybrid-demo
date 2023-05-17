@@ -83,6 +83,20 @@ chmod +x config_files.sh
 chmod +x config.sh
 chmod +x ccloud-generate-cp-configs.sh
 
+```
+
+Can you see the Control center here?
+<br>
+http://localhost:9021/clusters
+<br>
+
+and the plugins here? 
+<br>
+
+http://localhost:8083/connector-plugins
+<br>
+
+if YES!
 and then after this launch config_files.sh making sure all values are good (they should)
 This will add a connector for clickhouse
 
@@ -90,6 +104,10 @@ This will add a connector for clickhouse
 ./config_file.sh
 ```
 
+You can verify it here, or in the control center!
+<br>
+http://localhost:8083/connectors/
+<br>
 
 And the outcome would look like this!
 ![IMAGE_DESCRIPTION](img/outcome.png)
