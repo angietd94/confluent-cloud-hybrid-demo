@@ -3,7 +3,7 @@
 
 Modify first the config.sh file with your values! <br>
 
-then: <br> NOTE: THIS WILL DELETE ANY OTHER DOCKER CONTAINER!!!! IF YOU DONT WANT IT COMMENT THE FIRST LINES ON THAT. <br>
+then: <br>
 ```
 chmod +x executable.sh <br>
 chmod +x config_files.sh<br>
@@ -37,6 +37,7 @@ CLOUD_SECRET="*****"<br>
 
 
 ORG_ID="***-***-***-***-****"<br>
+![IMAGE_DESCRIPTION](img/org.png)<br>
 
 ENVID="env-****"<br>
 ![IMAGE_DESCRIPTION](img/env.png)<br>
@@ -66,6 +67,9 @@ The URL in the down-right side!
 
 <br>
 BOOTSTRAP_SERVERS="*****:****"<br>
+
+<br>
+<br>
 
 
 
