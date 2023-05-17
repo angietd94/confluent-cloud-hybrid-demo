@@ -85,7 +85,10 @@ chmod +x ccloud-generate-cp-configs.sh
 ./executable.sh
 
 ```
-
+More information on the part of Auto generating: <br>
+Example: Autogenerate Self-Managed Component Configs for Confluent Cloud  <br>
+https://docs.confluent.io/cloud/current/cp-component/auto-generate-configs.html
+<br>
 Can you see the Control center here?
 <br>
 http://localhost:9021/clusters
