@@ -27,3 +27,4 @@ when all is up, modify first the config_files.sh file with your values for the c
 ```
 ./config_files.sh
 ```
+Note: to find values in Confluent Cloud
