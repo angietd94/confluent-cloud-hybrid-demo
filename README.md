@@ -39,7 +39,7 @@ CLOUD_SECRET="*****"<br>
 ORG_ID="***-***-***-***-****"<br>
 
 ENVID="env-****"<br>
-![ENVID](img/env.png)<br>
+![IMAGE_DESCRIPTION](img/env.png)<br>
 
 
 export CLUSTERID="lkc-***"<br>
@@ -50,7 +50,7 @@ export REGION="eu-central-1"<br>
 <br>
 CLUSTERAPIKEY="*****"<br>
 CLUSTERAPISECRET="******"<br>
-![ENVID](img/clusterapikeys.png)<br>
+![IMAGE_DESCRIPTION](img/clusterapikeys.png)<br>
 
 <br>
 #for example, aws or gcp<br>
@@ -61,7 +61,7 @@ SR_API_SECRET="****"<br>
 SCHEMA_REGISTRY_URL="****+"<br>
 The URL in the down-right side!
 <br>
-![ENVID](img/sr.png)<br>
+![IMAGE_DESCRIPTION](img/sr.png)<br>
 <br>
 
 <br>
@@ -76,10 +76,10 @@ export DATABASE_NAME="default"<br>
 export DATABASE_PASSWORD="*****"<br>
 export DATABASE_HOSTNAME="******"<br>
 export CLICKHOUSE_HOSTNAME="****"<br>
-![ENVID](img/hostname.png)
+![IMAGE_DESCRIPTION](img/hostname.png)
 
 
 And the outcome would look like this!
-![ENVID](img/outcome.png)
+![IMAGE_DESCRIPTION](img/outcome.png)
 
 
