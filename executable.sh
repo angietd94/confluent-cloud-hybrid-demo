@@ -4,6 +4,12 @@
 ###DOCUMENT BY ANGELICA TACCA DUGHETTI
 ##### CONFLUENT
 
+echo "Importing variables"
+## IMPORT VARIABLES:
+./config.sh
+source config.sh
+
+
 
 # if this file doesnt work remember to #chmod +x executable.sh  !!!!!
 
@@ -30,10 +36,6 @@ curl -sL --http1.1 https://cnfl.io/cli | sh -s -- latest
 
 #git clone https://github.com/confluentinc/examples.git
 
-echo "Importing variables"
-## IMPORT VARIABLES:
-./config.sh
-source config.sh
 
 ######If Docker is not installed install it
 #Make sure Docker is open
