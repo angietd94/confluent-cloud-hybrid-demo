@@ -4,6 +4,9 @@
 ###DOCUMENT BY ANGELICA TACCA DUGHETTI
 ##### CONFLUENT
 
+chmod +x config_files.sh 
+chmod +x config.sh
+chmod +x ccloud-generate-cp-configs.sh
 
 # if this file doesnt work remember to #chmod +x executable.sh  !!!!!
 
@@ -35,9 +38,6 @@ curl -sL --http1.1 https://cnfl.io/cli | sh -s -- latest
 
 echo "Importing variables"
 ## IMPORT VARIABLES:
-chmod +x config.sh
-chmod +x config_files.sh 
-chmod +x ccloud-generate-cp-configs.sh
 ./config.sh
 source config.sh
 
