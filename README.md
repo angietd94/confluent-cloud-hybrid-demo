@@ -106,7 +106,33 @@ What I see:
 
 <br>
 <br>
+
+
 if YES!
+
+CREATE A TOPIC for example with schema: <br>
+```
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "doc": "The string is a unicode character sequence.",
+      "name": "name",
+      "type": "string"
+    }
+  ],
+  "name": "sampleRecord",
+  "namespace": "com.mycorp.mynamespace",
+  "type": "record"
+}
+```
+
+<br>
+
 and then after this launch config_files.sh making sure all values are good (they should)
 This will add a connector for clickhouse
 
@@ -119,6 +145,27 @@ You can verify it here, or in the control center!
 http://localhost:8083/connectors/
 <br>
 
+
+CREATE A TABLE IN CLICKHOUSE SIMILAR TO THE STRUCTURE OF YOUR TOPIC <br>
+for example:
+
+```
+CREATE OR REPLACE TABLE simple_example_avro
+(
+    age Int64,
+    name String
+)
+ENGINE = MergeTree
+ORDER BY name;
+```
+
+Try send messages in CC something lik: <br>
+```
+{
+	"name": "angelica",
+	"orderid": 29
+}
+```
 And the outcome would look like this!
 ![IMAGE_DESCRIPTION](img/lastpart.png)
 
