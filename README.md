@@ -82,6 +82,7 @@ chmod +x executable.sh
 chmod +x config_files.sh
 chmod +x config.sh
 chmod +x ccloud-generate-cp-configs.sh
+./executable.sh
 
 ```
 
