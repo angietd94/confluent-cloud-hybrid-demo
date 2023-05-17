@@ -4,10 +4,6 @@
 ###DOCUMENT BY ANGELICA TACCA DUGHETTI
 ##### CONFLUENT
 
-echo "Letting files be executable"
-chmod +x config_files.sh 
-chmod +x config.sh
-chmod +x ccloud-generate-cp-configs.sh
 
 # if this file doesnt work remember to #chmod +x executable.sh  !!!!!
 
