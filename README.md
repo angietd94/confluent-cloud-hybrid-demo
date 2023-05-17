@@ -1,6 +1,11 @@
 # confluent-cloud-hybrid-demo
+<br>
+Detailed video of every step here:<br>
+----> 
 
+https://drive.google.com/file/d/1MQC5X1bzX7G6sivb77Nao2t7I-O15nA8/view?usp=sharing
 
+<br>
 First clone the git repo, and enter in the folder:
 
 ```
