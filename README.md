@@ -199,37 +199,3 @@ Also some videos here that go through all the process:
 https://drive.google.com/file/d/1xUpOMX-cFQDH5BVCfKHOc4IMn8uYmNxV/view
 https://drive.google.com/file/d/1Zr-Nkpmpd2leGuErGQRAPJWxmiheWZTB/view?usp=sharing
 
-```
-
-Run:
-```
-./executable.sh 
-```
-
-It will ask for username and password for the account.
-<br>
-
-Check: 
-<br>
-http://localhost:8083/connector-plugins 
-<br>
-http://localhost:8083/connectors/ 
-<br>
-http://localhost:9021/clusters/
-
-<br>
-
-when all is up, modify first the config_files.sh file with your values for the connector and then run it. <br>
-```
-./config_files.sh
-```
-
-
-And the outcome would look like this!
-![IMAGE_DESCRIPTION](img/outcome.png)
-
-
-Also some videos here that go through all the process:
-https://drive.google.com/file/d/1xUpOMX-cFQDH5BVCfKHOc4IMn8uYmNxV/view
-https://drive.google.com/file/d/1Zr-Nkpmpd2leGuErGQRAPJWxmiheWZTB/view?usp=sharing
-
