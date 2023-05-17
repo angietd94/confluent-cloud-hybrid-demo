@@ -80,10 +80,11 @@ then: <br>
 ```
 chmod +x executable.sh 
 chmod +x config_files.sh
-# confluent-cloud-hybrid-demo
+chmod +x config.sh
+chmod +x ccloud-generate-cp-configs.sh
 
 
-First clone the git repo, and enter in the folder:
+
 
 ```
 git clone https://github.com/angietd94/confluent-cloud-hybrid-demo.git
