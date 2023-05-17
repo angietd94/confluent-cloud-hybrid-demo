@@ -95,7 +95,13 @@ and the plugins here?
 
 http://localhost:8083/connector-plugins
 <br>
+What I see:
+<br>
+![IMAGE_DESCRIPTION](img/outcome.png)
 
+
+<br>
+<br>
 if YES!
 and then after this launch config_files.sh making sure all values are good (they should)
 This will add a connector for clickhouse
@@ -110,7 +116,7 @@ http://localhost:8083/connectors/
 <br>
 
 And the outcome would look like this!
-![IMAGE_DESCRIPTION](img/outcome.png)
+![IMAGE_DESCRIPTION](img/lastpart.png)
 
 
 Also some videos here that go through all the process:
