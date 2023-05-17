@@ -1,13 +1,13 @@
 #!/bin/sh
 
-
-
-sleep 30s
-
+source config.sh
 echo "Creating the clickhouse connector .... "
 
-
-sleep 5
+echo $TOPIC
+echo $DATABASE_HOSTNAME
+echo $DATABASE_NAME
+echo $DATABASE_PASSWORD
+echo $SCHEMA_REGISTRY_URL
 
     curl -i -X POST http://localhost:8083/connectors -H "Content-Type:application/json" -H "Accept: application/json" \
     -d '{
@@ -15,11 +15,11 @@ sleep 5
             "config": {
                 "connector.class":"com.clickhouse.kafka.connect.ClickHouseSinkConnector",
                 "tasks.max":"2",
-                "topics": '"${TOPIC}"',
+                "topics": "'$TOPIC'",
                 "ssl":"true",
-                "hostname":"'"${CLICKHOUSE_HOSTNAME}"'",
-                "database":"'"${DATABASE_NAME}"'",
-                "password":"'"${DATABASE_PASSWORD}"'",
+                "hostname": "'$DATABASE_HOSTNAME'",
+                "database":"'$DATABASE_NAME'",
+                "password":"'$DATABASE_PASSWORD'",
                 "ssl.truststore.location": "/tmp/kafka.client.truststore.jks",
                 "port": "8443",
                 "value.converter.schemas.enable": "false",
@@ -27,12 +27,12 @@ sleep 5
                 "auto.create.tables": "false",
                 "username":"default",
                 "schemas.enable":"false",
-                "table": '"${TOPIC}"',
-                "schema.registry.url": "'"${SCHEMA_REGISTRY_URL}"'",
-                "key.converter.schema.registry.url": "'"${SCHEMA_REGISTRY_URL}"'",
+                "table": "'$TOPIC'",
+                "schema.registry.url": "'$SCHEMA_REGISTRY_URL'",
+                "key.converter.schema.registry.url": "'$SCHEMA_REGISTRY_URL'",
                 "value.converter": "org.apache.kafka.connect.json.JsonConverter",
                 "schemas.enable": "false",
-                "value.converter.schema.registry.url": "'"${SCHEMA_REGISTRY_URL}"'",
+                "value.converter.schema.registry.url": "'$SCHEMA_REGISTRY_URL'",
                 "errors.tolerance": "all"
             }
     }'
