@@ -3,7 +3,7 @@
 
 Modify first the config.sh file with your values! <br>
 
-then: <br>
+then: <br> NOTE: THIS WILL DELETE ANY OTHER DOCKER CONTAINER!!!! IF YOU DONT WANT IT COMMENT THE FIRST LINES ON THAT. <br>
 ```
 chmod +x executable.sh <br>
 chmod +x config_files.sh<br>
