@@ -9,7 +9,7 @@ cd confluent-cloud-hybrid-demo
 
 ```
 
-## Modify first the config.sh file with your values! <br>
+## Modify first the config.sh file with your values! If done, skip this part. <br>
 
 
 ###Guide: to find values in Confluent Cloud:
