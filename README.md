@@ -30,47 +30,51 @@ when all is up, modify first the config_files.sh file with your values for the c
 Note: to find values in Confluent Cloud:
 
 
-CLOUD_KEY="*****"
-CLOUD_SECRET="*****"
+CLOUD_KEY="*****"<br>
+CLOUD_SECRET="*****"<br>
 
-![Cloud Api Key](img/cloudapikeys.png)
-
-
-ORG_ID="***-***-***-***-****"
-ENVID="env-****"
-![ENVID](img/env.png)
+![Cloud Api Key](img/cloudapikeys.png)<br>
 
 
-export CLUSTERID="lkc-***"
+ORG_ID="***-***-***-***-****"<br>
 
-#Either us, eu
-export GEO="eu"
-export REGION="eu-central-1"
-
-CLUSTERAPIKEY="*****"
-CLUSTERAPISECRET="******"
-
-#for example, aws or gcp
-CLOUDPROVIDER="aws"
-
-SR_API_KEY="****"
-SR_API_SECRET="****"
-
-![ENVID](img/sr.png)
+ENVID="env-****"<br>
+![ENVID](img/env.png)<br>
 
 
+export CLUSTERID="lkc-***"<br>
 
-BOOTSTRAP_SERVERS="*****:****"
-SCHEMA_REGISTRY_URL="****+"
+#Either us, eu<br>
+export GEO="eu"<br>
+export REGION="eu-central-1"<br>
+<br>
+CLUSTERAPIKEY="*****"<br>
+CLUSTERAPISECRET="******"<br>
+<br>
+#for example, aws or gcp<br>
+CLOUDPROVIDER="aws"<br>
+<br>
+SR_API_KEY="****"<br>
+SR_API_SECRET="****"<br>
+SCHEMA_REGISTRY_URL="****+"<br>
+The URL in the down-right side!
+<br>
+![ENVID](img/sr.png)<br>
+<br>
+
+<br>
+BOOTSTRAP_SERVERS="*****:****"<br>
+
 
 
 ## CLICKHOUSE DATA
 
-export TOPIC="*****"
-export DATABASE_NAME="default"
-export DATABASE_PASSWORD="*****"
-export DATABASE_HOSTNAME="******"
-export CLICKHOUSE_HOSTNAME="****"
+export TOPIC="*****" <br>
+export DATABASE_NAME="default"<br>
+export DATABASE_PASSWORD="*****"<br>
+export DATABASE_HOSTNAME="******"<br>
+export CLICKHOUSE_HOSTNAME="****"<br>
+![ENVID](img/hostname.png)
 
 
 And the outcome would look like this!
